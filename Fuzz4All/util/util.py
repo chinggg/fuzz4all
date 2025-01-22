@@ -4,7 +4,7 @@ import yaml
 
 
 def comment_remover(text, lang="cpp"):
-    if lang == "cpp" or lang == "go" or lang == "java":
+    if lang == "cpp" or lang == "go" or lang == "java" or lang == "javascript":
 
         def replacer(match):
             s = match.group(0)
