@@ -24,7 +24,7 @@ fuzzing:
   use_hand_written_prompt: false
   # whether to use only trigger_to_generate_input and input_hint, without the
   # any documentation information or example code
-  no_input_prompt: true
+  no_input_prompt: false
   # prompt strategy to generate obtain programs after the first one.
   # 0: generate new code using separator
   # 1: mutate existing code
